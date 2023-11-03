@@ -1,0 +1,172 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    background-size: 200px;
+
+}
+
+
+
+
+
+li {
+    float: left;
+}
+
+#lista {
+    float: left;
+    width: 100%;
+}
+
+li a {
+    display: block;
+    color: purple;
+    text-align: right;
+    padding: 14px 75px;
+    text-decoration: none;
+    font-style: inherit;
+    font-size: 30px;
+    
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+/* Add a gray right border to all list items, except the last item (last-child) */
+
+
+li:last-child {
+    border-right: 10px;
+}
+
+
+ul {
+    position: relative;
+    top: 0;
+    width: 100%;
+}
+
+body section {
+    background: white;
+    font-size: 15px;
+    border-bottom: darkgreen;
+    border-block-start-color: white;
+
+}
+
+
+ul img {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+
+}
+
+li img {
+    float: left;
+}
+
+li img {
+    display: block;
+   
+    text-align: right;
+    padding: 14px 20px;
+    text-decoration: none;
+    
+}
+body {
+    background: white;
+}
+
+/* Change the link color to #111 (black) on hover */
+li img:hover {
+    background-color: #111;
+}
+
+
+/* Add a gray right border to all list items, except the last item (last-child) */
+li img {
+    border-right: 1px solid rgb(155, 109, 109);
+    
+}
+
+li img:last-child {
+    border-right: 10px;
+}
+
+img {
+    background: #333;
+}
+
+#logo {
+    width: 20%;
+    height: 100px;
+    position: top;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    position: relative;
+}
+
+
+
+
+section footer  {
+    background: #4b413d;
+}
+
+section #segunda {
+    float: left;
+}
+
+.clearfix {
+    clear: both;
+}
+
+#articulo {
+    width: 60%;
+    float: left;
+
+}
+
+#aside {
+    width: 40%;
+    float: left;
+}
+
+#primera {
+    position: center;
+}
+
+#todo {
+    background: white;
+}
+
+#video {
+    padding-left: 250px;
+    align-content: center;
+    
+    
+    
+}
+h1 {
+    font-style: oblique;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 75px;
+    text-decoration: none;
+    font-style: cursive;
+    font-size: 50px;
+}
+
